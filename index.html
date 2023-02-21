@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<div class="back"><img src="calcanime.svg" class="backimg"></div>
+    
+    <div class="calculator">
+        <div class="head">
+        <h1 class="heading"> Calculator</h1>
+        
+    </div>
+        <form>
+            <div class="display">
+                <input type="text" name="display" id="input" >
+            </div>
+            <div>
+                <input type="button" value="AC" id="allClear" class="hover">
+                <input type="button" value="DE" id="delete" class="hover">
+                <input type="button" value="." id="dot"  class="hover">
+                <input type="button" value="/" id="division" class="hover">
+            </div>
+
+            <div>
+                <input type="button" value="7" id="seven" class="hover">
+                <input type="button" value="8" id="eight" class="hover">
+                <input type="button" value="9" id="nine" class="hover">
+                <input type="button" value="*" id="multi" class="hover">
+            </div>
+
+            <div>
+                <input type="button" value="4" id="four" class="hover">
+                <input type="button" value="5" id="five" class="hover">
+                <input type="button" value="6" id="six" class="hover">
+                <input type="button" value="-" id="minus" class="hover">
+            </div>
+
+            <div>
+                <input type="button" value="1" id="one" class="hover">
+                <input type="button" value="2" id="two" class="hover">
+                <input type="button" value="3" id="three" class="hover">
+                <input type="button" value="+" id="add" class="hover">
+            </div>
+
+            <div>
+                <input type="button" value="00" id="doublez" class="hover">
+                <input type="button" value="0" id="zero"class="hover">
+                <input type="button" value="=" onclick="display.value = eval(display.value)"  class="equal hover" >
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
